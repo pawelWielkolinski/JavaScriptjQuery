@@ -10,7 +10,7 @@ background-size: cover;/*resize background to cover entire container*/
 h1, h3, p {
 float: left;
 clear: left; /*where floating elements are not allowed to flow*/
-width: 500px; 
+width: 320px;
 text-align: center;
 background-color: #fff;
 color: #5a514c;
@@ -21,11 +21,48 @@ for exp margin values are clockwise -> top,right,down,left
 2 values top+down, right+left*/
 h1 {
 margin: 50px 0 0 50px;
-height: 200px;
+height: 175px;
 background-image: url("images/constructive-logo.gif");
 background-repeat: no-repeat;
 text-indent: -99999px;/*first line of the text*/
 border-top: 1px solid red;
 border-left: 1px solid red;
 border-right: 1px solid red;
+}
+
+h3 {
+margin: 0 0 0 50px;
+padding: 25px 0 0 0 0;
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 1.8em; /*em -> 1.8 size of element*/
+font-style: italic;
+font-weight: 800;
+line-height: 0.80em;
+letter-spacing: -0.02em;
+text-transformation: uppercase;
+border-left: 1px solid yellow;
+border-right: 1px solid yellow;
+}
+
+p {
+margin: 0 0 0 50px;
+padding: 30px 0 25px 0;
+font-weight: bold;
+text-align: center;
+border-top: 1px solid cyan;
+border-left: 1px solid cyan;
+border-right: 1px solid cyan;
+}
+
+p + script + h3 { /*this apply only to exactly that setup of html  */
+padding-bottom: 20px;
+border-bottom: 1px solid gray;
+}
+
+html{
+height:100%;
+min-height:100%;
+}
+body{
+min-height:100%;
 }
