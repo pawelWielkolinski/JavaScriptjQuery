@@ -1,3 +1,12 @@
+body {
+font-family: "Courier New", Courier, monospace;
+background: url("images/constructive-backdrop.jpg") no-repeat center center fixed;
+-o-background-size: cover; /*for Opera, webkit for Chrome and moz for Firefox*/
+margin: 0;
+padding: 0;
+background-size: cover;/*resize background to cover entire container*/
+}
+
 h1, h3, p {
 float: left;
 clear: left; /*where floating elements are not allowed to flow*/
@@ -13,4 +22,10 @@ for exp margin values are clockwise -> top,right,down,left
 h1 {
 margin: 50px 0 0 50px;
 height: 200px;
+background-image: url("images/constructive-logo.gif");
+background-repeat: no-repeat;
+text-indent: -99999px;/*first line of the text*/
+border-top: 1px solid red;
+border-left: 1px solid red;
+border-right: 1px solid red;
 }
