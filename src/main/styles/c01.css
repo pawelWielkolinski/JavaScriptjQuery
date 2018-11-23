@@ -1,6 +1,16 @@
-body {
+h1, h3, p {
 float: left;
-clear: left;
+clear: left; /*where floating elements are not allowed to flow*/
 width: 500px; 
 text-align: center;
+background-color: #fff;
+color: #5a514c;
+}
+/*box model in css: content->padding->border->margin
+for exp margin values are clockwise -> top,right,down,left
+3 values - top, right+left, bottom
+2 values top+down, right+left*/
+h1 {
+margin: 50px 0 0 50px;
+height: 200px;
 }
