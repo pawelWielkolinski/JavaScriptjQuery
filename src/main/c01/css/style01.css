@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic); /*import of fonts, simple as that*/
+
 body {
 font-family: "Courier New", Courier, monospace;
 background: url("images/constructive-backdrop.jpg") no-repeat center center fixed;
@@ -32,14 +34,14 @@ border-right: 1px solid red;
 
 h3 {
 margin: 0 0 0 50px;
-padding: 25px 0 0 0 0;
+padding: 25px 0 0 0;
 font-family: 'Open Sans', arial, sans-serif;
 font-size: 1.8em; /*em -> 1.8 size of element*/
 font-style: italic;
 font-weight: 800;
 line-height: 0.80em;
 letter-spacing: -0.02em;
-text-transformation: uppercase;
+text-transform: uppercase;
 border-left: 1px solid yellow;
 border-right: 1px solid yellow;
 }
