@@ -1,7 +1,5 @@
-var price;
-var quantity;
-var total;
-
+var price, quantity, total;
+// price 5, quantity = 14; - this is good too
 price = 5;
 quantity = 14;
 total = price * quantity;
