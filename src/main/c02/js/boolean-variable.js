@@ -11,4 +11,4 @@ var elStock = document.getElementById('stock');
 elStock.className = inStock;
 
 var elShip = document.getElementById('shipping');
-elShip.className = shipping;
+elShip.className = shipping; //className changes class name to "true" in this case
